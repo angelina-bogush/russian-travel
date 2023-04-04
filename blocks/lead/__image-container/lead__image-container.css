@@ -1,0 +1,10 @@
+.lead__image-container{
+    max-width: 984px;
+ margin: 0 auto;
+ }
+ @media screen and (max-width:1024px){
+    .lead__image-container{max-width:928px;}
+}
+@media screen and (max-width:768px){
+    .lead__image-container{max-width:100%;}
+}

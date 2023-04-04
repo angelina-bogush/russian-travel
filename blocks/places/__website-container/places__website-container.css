@@ -1,0 +1,10 @@
+.places__website-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+@media screen and (max-width:320px){
+    .places__website-container{
+        padding-left: 16px;
+    }
+}

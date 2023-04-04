@@ -1,0 +1,30 @@
+.cover__overlay {
+    margin: 0 auto;
+    max-width: 1184px;
+    display: flex;
+    background-image: url(../../../images/__background.png);
+    position: relative;
+    z-index: 0;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    aspect-ratio: 8/5;
+    text-decoration: none;
+}
+.cover__overlay::before {
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #2A2C2F;
+    opacity: .3;
+    transition: .5s ease;
+    z-index: -1;
+}
+
+.cover__overlay:hover::before {
+    opacity: .8;
+}
