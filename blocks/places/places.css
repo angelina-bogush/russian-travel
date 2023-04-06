@@ -4,14 +4,15 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 79px;
+    padding-top: 3px;
 }
 
-@media screen and (max-width:1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     .places {
-        max-width: 928px;
+      max-width: calc(100% - 96px);
     }
-}
+  }
 
 @media screen and (max-width:768px) {
     .places {
@@ -23,6 +24,6 @@
 @media screen and (max-width:320px) {
     .places {
         width: 100%;
-        gap: 50px;
+        gap: 57px;
     }
 }

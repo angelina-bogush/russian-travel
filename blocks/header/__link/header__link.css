@@ -4,7 +4,7 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-    margin: 0;
+    margin: 17px 0 0;
     padding: 0;
     transition: all .4s ease;
 }
@@ -13,9 +13,16 @@
     opacity: .8;
 }
 
+@media (min-width:321px) and (max-width:768px) {
+    .header__link {
+        margin: 17px 0 3px;
+    }
+}
+
 @media screen and (max-width:320px) {
     .header__link {
         font-size: 18px;
         line-height: 20px;
+        margin: 10px 0 3px;
     }
 }

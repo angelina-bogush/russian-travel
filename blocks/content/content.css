@@ -8,7 +8,7 @@
 @media screen and (max-width:768px) {
     .content {
         padding: 48px 0 88px;
-        row-gap: 88px
+        row-gap: 88px;
     }
 
 }
@@ -21,7 +21,7 @@
 
 @media screen and (max-width:320px) {
     .content {
-        padding: 48px 0 64px;
+        padding: 48px 0 74px;
         row-gap: 64px;
     }
 }
